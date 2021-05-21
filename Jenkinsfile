@@ -7,7 +7,7 @@ pipeline {
                 git url: "https://github.com/drsahook/pulumi-jenkins-app-deploy-new.git",
                     // Set your credentials id value here.
                     // See https://jenkins.io/doc/book/using/using-credentials/#adding-new-global-credentials
-                    credentialsId: "f51c21d3-65ec-46f5-b034-190160ab09d7",
+                    credentialsId: "3aa5afe1-db81-4406-8eef-94f73c7a7d9f",
                     // You could define a new stage that specifically runs for, say, feature/* branches
                     // and run only "pulumi preview" for those.
                     branch: "main"
