@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage ("Checkout code") {
             steps {
-                git url: "https://github.com/drsahook/pulumi-jenkins-app-deploy.git",
+                git url: "https://github.com/drsahook/pulumi-jenkins-app-deploy-new.git",
                     // Set your credentials id value here.
                     // See https://jenkins.io/doc/book/using/using-credentials/#adding-new-global-credentials
                     credentialsId: "f51c21d3-65ec-46f5-b034-190160ab09d7",
