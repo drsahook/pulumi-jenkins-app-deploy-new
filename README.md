@@ -114,4 +114,4 @@ Duration: 57s
 Remove the stack
 ```
 pulumi stack rm dev -y`
-```
+```# pulumi-jenkins-app-deploy-new
